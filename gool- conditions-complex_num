@@ -1,0 +1,9 @@
+x = int(input("insert number:"))
+numberator = 2 * (x * x - 1)
+denominator = 2 * x - 6
+if int(denominator) < 0:
+    print("imaginary number")
+elif int(denominator) == 0:
+    print("error: division by zero")
+else:
+    print(numberator / denominator**0.5)
